@@ -5,7 +5,7 @@
 void QuickSort(int*, int, int);
 
 int main(void) {
-	int n = 2000; //n은 데이터 개수
+	int n = 2000;		//n은 데이터 개수
 	int i, value;
 
 	int* a = (int*)malloc(sizeof(int) * n);
